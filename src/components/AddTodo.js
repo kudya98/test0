@@ -7,7 +7,7 @@ import '../styles/addtodo.scss'
 
 const AddTodo = ({ addTodo }) => {
     let input
-
+    let getInputRef = node => input = node
     return (
         <div>
             <form className={'add-todo'} onSubmit={e => {
@@ -18,7 +18,7 @@ const AddTodo = ({ addTodo }) => {
                 addTodo(input.value,new Date())
                 input.value = ''
             }}>
-                <input ref={node => input = node} />
+                <input ref={getInputRef} />
                 <button type="submit">
                     Новая задача
                 </button>
