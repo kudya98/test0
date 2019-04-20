@@ -1,0 +1,9 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "rules": {
+    "max-len": [1, 100, 2, {"ignoreComments": true,"ignoreUrls": true}],
+    "react/prop-types": ["warn"],
+    "semi": "off"
+  }
+}

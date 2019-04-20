@@ -1,0 +1,9 @@
+.footer{
+  display:flex;
+  flex-direction:row;
+}
+.footer > button{
+  width:50%;
+  padding:15px;
+  cursor:pointer;
+}
