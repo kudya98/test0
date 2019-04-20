@@ -1,7 +1,6 @@
 
-export const addTodo = (text,date) => ({
+export const addTodo = text => ({
   type: 'ADD_TODO',
-  date,
   text
 })
 

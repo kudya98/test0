@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import {addTodo} from '../actions'
 import '../styles/addtodo.scss'
 
-
 const AddTodo = ({ addTodo }) => {
     let input
     let getInputRef = node => input = node
@@ -15,7 +14,7 @@ const AddTodo = ({ addTodo }) => {
                 if (!input.value.trim()) {
                     return
                 }
-                addTodo(input.value,new Date())
+                addTodo(input.value)
                 input.value = ''
             }}>
                 <input ref={getInputRef} />
@@ -30,6 +29,6 @@ AddTodo.propTypes = {
     addTodo: PropTypes.func.isRequired
 }
 const mapDispatchToProps = dispatch => ({
-    addTodo: (text,date) => dispatch(addTodo(text,date))
+    addTodo: text => dispatch(addTodo(text))
 })
 export default connect(null, mapDispatchToProps)(AddTodo)

@@ -6,7 +6,7 @@ const todos = (state = [], action) => {
                 {
                     id: Math.random(),
                     text: action.text,
-                    date: action.date,
+                    date: new Date(),
                     completed: false
                 },
                 ...state
