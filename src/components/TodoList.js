@@ -5,7 +5,7 @@ import Todo from './Todo'
 import { toggleTodo, removeTodo} from "../actions";
 import '../styles/todolist.scss'
 
-const TodoList = ({ todos, toggleTodo, removeTodo }) => (
+const TodoList = ({todos, toggleTodo, removeTodo}) => (
     <ul className={'todo-list'}>
         {todos.map(todo =>
             <Todo

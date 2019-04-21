@@ -4,12 +4,12 @@ import { connect } from 'react-redux'
 import {clearList, clearCompleted} from "../actions";
 import '../styles/footer.scss'
 
-const Footer = ({todos,clearList,clearCompleted}) => {
+const Footer = ({show, clearList, clearCompleted}) => {
 
     return (
         <div className={'footer'}
              style={{
-                 display: todos.length ? 'flex' : 'none'
+                 display: show ? 'flex' : 'none'
              }}>
             <button onClick={()=>clearCompleted()}>Очистить завершённые</button>
             <button onClick={()=>clearList()}>Очистить все</button>
@@ -17,17 +17,12 @@ const Footer = ({todos,clearList,clearCompleted}) => {
     )
 }
 Footer.propTypes = {
-    todos: PropTypes.arrayOf(PropTypes.shape({
-        id: PropTypes.number.isRequired,
-        completed: PropTypes.bool.isRequired,
-        date: PropTypes.string.isRequired,
-        text: PropTypes.string.isRequired
-    }).isRequired).isRequired,
+    show: PropTypes.number.isRequired,
     clearList: PropTypes.func.isRequired,
     clearCompleted: PropTypes.func.isRequired
 }
 const mapStateToProps = state => ({
-    todos: state.todos
+    show: state.todos.length
 })
 const mapDispatchToProps = dispatch => ({
     clearList: () => dispatch(clearList()),

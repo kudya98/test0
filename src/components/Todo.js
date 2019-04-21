@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import '../styles/todo.scss'
 
-const Todo = ({ actions,  id, completed, text, date }) => (
+const Todo = ({actions, id, completed, text, date}) => (
     <li className={'todo'}
         style={{backgroundColor: completed ? '#999' : '#ddd'}}
         onClick={()=>actions.toggleTodo(id)}
