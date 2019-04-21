@@ -20,7 +20,6 @@ Footer.propTypes = {
     todos: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.number.isRequired,
         completed: PropTypes.bool.isRequired,
-        date: PropTypes.instanceOf(Date),
         text: PropTypes.string.isRequired
     }).isRequired).isRequired,
     clearList: PropTypes.func.isRequired,
