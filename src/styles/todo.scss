@@ -1,8 +1,8 @@
 .todo{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr auto;
+  grid-template-columns: 1fr auto;
   grid-template-rows: auto auto;
-  grid-template-areas: "p p p img" "pre pre pre img";
+  grid-template-areas: "p img" "pre img";
   cursor:pointer;
 }
 .todo > p{
