@@ -8,6 +8,7 @@
 .todo > p{
   grid-area: p;
   margin:5px;
+  text-align: justify;
   word-break: break-word;
   overflow: auto;
 }

@@ -1,12 +1,13 @@
 $background_color: #aaa;
 $todolist_color:#ddd;
+$app_width:900px;
 html{
   background-color:$background_color;
 }
 .app{
   background-color:$todolist_color;
   margin:auto;
-  max-width: 800px;
+  max-width: $app_width;
   display:flex;
   flex-direction: column;
   border: 1px solid black;
