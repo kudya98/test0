@@ -20,8 +20,8 @@
       <file leaf-file-name="todo.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/todo.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -199,7 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555675577856</updated>
       <workItem from="1555675580797" duration="25425000" />
-      <workItem from="1555729628519" duration="16273000" />
+      <workItem from="1555729628519" duration="17566000" />
     </task>
     <task id="LOCAL-00001" summary=" ">
       <created>1555733109123</created>
@@ -250,11 +250,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555857689378</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" ">
+      <created>1555858616723</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555858616723</updated>
+    </task>
+    <task id="LOCAL-00009" summary=" ">
+      <created>1555858852928</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555858852928</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41698000" />
+    <option name="totallyTimeSpent" value="42991000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -267,7 +281,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32900432" />
       <window_info anchor="bottom" id="Messages" weight="0.32900432" />
@@ -275,8 +288,8 @@
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49947312" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32900432" />
       <window_info id="npm" order="0" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49894625" visible="true" weight="0.32900432" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49894625" visible="true" weight="0.32900432" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -564,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/todo.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
