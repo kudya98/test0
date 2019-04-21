@@ -6,14 +6,16 @@
 }
 .todo > p{
   padding:0;
-  margin-left:10px;
-  margin-right:auto;
-  word-break: break-all;
+  margin: 10px auto 10px 10px;
+  word-break: break-word;
   overflow: auto;
 }
 .todo > pre{
-  margin-left:15px;
+  margin: 10px 0 10px 15px;
+  max-width: 40%;
   color:grey;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 .todo > img{
   margin: 10px;
