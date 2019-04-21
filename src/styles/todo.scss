@@ -15,11 +15,15 @@
   grid-area: pre;
   margin:5px;
   color:grey;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 .todo > img{
   grid-area: img;
-  align-self: center;
+  user-select: none;
+  align-self: start;
   height:30px;
+  margin:5px;
   width:auto;
   cursor:pointer;
 }
