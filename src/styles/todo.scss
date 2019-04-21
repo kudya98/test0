@@ -7,7 +7,7 @@
 .todo > p{
   padding:0;
   margin: 10px auto 10px 10px;
-  word-break: break-word;
+  word-break: break-all;
   overflow: auto;
 }
 .todo > pre{
@@ -15,7 +15,7 @@
   max-width: 40%;
   color:grey;
   white-space: pre-wrap;
-  word-break: break-word;
+  word-break: break-all;
 }
 .todo > img{
   margin: 10px;
