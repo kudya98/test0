@@ -1,18 +1,22 @@
 .todo{
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   cursor:pointer;
 }
 .todo > p{
   padding:0;
   margin-left:10px;
-  margin-right:10px;
+  margin-right:auto;
   word-break: break-all;
   overflow: auto;
 }
+.todo > pre{
+  margin-left:15px;
+  color:grey;
+}
 .todo > img{
-  margin: 10px 10px 0 0;
+  margin: 10px;
   height:30px;
   width:auto;
   cursor:pointer;

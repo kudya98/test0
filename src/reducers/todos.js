@@ -6,7 +6,7 @@ const todos = (state = [], action) => {
                 {
                     id: Math.random(),
                     text: action.text,
-                    date: new Date(),
+                    date: new Date().toString(),
                     completed: false
                 },
                 ...state
@@ -17,13 +17,15 @@ const todos = (state = [], action) => {
                     ? {...todo, completed: !todo.completed}
                     : todo
             )
-            let completed_todos=new_todos.filter(todo => (!todo.completed));
-            let incomplete_todos=new_todos.filter(todo => (todo.completed));
-            return completed_todos.concat(incomplete_todos); //сортировка
+            let completed_todos=new_todos.filter(todo => (!todo.completed)).
+            sort((a,b) => new Date(b.date) - new Date(a.date))
+            let incomplete_todos=new_todos.filter(todo => (todo.completed)).
+            sort((a,b) => new Date(b.date) - new Date(a.date))
+            return completed_todos.concat(incomplete_todos)
         case 'REMOVE_TODO':
             return state.filter(todo => (todo.id !== action.id) )
         case 'CLEAR_LIST':
-            return [];
+            return []
         case 'CLEAR_COMPLETED':
             return state.filter(todo => (!todo.completed ))
         default:
